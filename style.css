@@ -549,3 +549,50 @@ header.sticky {
         font-size: 0.9rem;
     }
 }
+
+
+.center-text h2 {
+    font-size: 36px; /* Ukuran font judul */
+    color: #ffffff; /* Warna teks judul */
+}
+
+.center-text h2 span {
+    color: #007BFF; /* Warna teks yang berbeda untuk "Me" */
+}
+
+.container {
+    max-width: 800px; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Rata tengah */
+    padding: 20px; /* Ruang dalam */
+}
+
+.header h1 {
+    font-size: 28px; /* Ukuran font untuk header */
+    color: #fcfcfc; /* Warna teks header */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex; /* Mengatur elemen dalam flexbox */
+    flex-direction: column; /* Elemen dalam kolom */
+    align-items: center; /* Rata tengah */
+}
+
+.grp {
+    display: flex; /* Mengatur elemen dalam grup */
+    align-items: center; /* Rata tengah untuk ikon dan teks */
+    margin: 15px 0; /* Ruang atas dan bawah antar grup */
+}
+
+.grp i {
+    font-size: 24px; /* Ukuran ikon */
+    color: #007BFF; /* Warna ikon */
+    margin-right: 10px; /* Ruang kanan antara ikon dan teks */
+}
+
+.grp span {
+    font-size: 18px; /* Ukuran font untuk teks kontak */
+    color: #faf8f8; /* Warna teks kontak */
+}
+
